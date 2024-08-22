@@ -11,9 +11,9 @@ export function NoteList() {
         <div key={note.id} className={s.card_container}>
           <TextCard
             title={note.title}
-            subtitle={note.date}
+            subtitle={note.created_at}
             content={note.content}
-            onClickTrash={() => alert('onClickTrash()')}
+            onClickTrash={() => alert('onClickTrash')}
             onClick={() => navigate('note/' + note.id)}
           />
         </div>
