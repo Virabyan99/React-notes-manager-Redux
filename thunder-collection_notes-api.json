@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "notes-api",
+    "collectionId": "2b360091-06ff-48fe-998f-9883cb21153f",
+    "dateExported": "2024-07-03T15:47:28.336Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ed1319df-32a0-4092-91eb-4bcea5c1fed3",
+            "colId": "2b360091-06ff-48fe-998f-9883cb21153f",
+            "containerId": "",
+            "name": "Fetch all",
+            "url": "http://localhost:3200/notes",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-03T15:41:40.065Z",
+            "modified": "2024-07-03T15:41:40.065Z",
+            "headers": []
+        },
+        {
+            "_id": "cd017347-47a1-4c12-ad21-b6db24224e18",
+            "colId": "2b360091-06ff-48fe-998f-9883cb21153f",
+            "containerId": "",
+            "name": "Fetch by id",
+            "url": "http://localhost:3200/notes",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-03T15:41:45.276Z",
+            "modified": "2024-07-03T15:41:45.276Z",
+            "headers": []
+        },
+        {
+            "_id": "bcb549bd-cc77-40cf-bdcf-beeda518df5c",
+            "colId": "2b360091-06ff-48fe-998f-9883cb21153f",
+            "containerId": "",
+            "name": "Delete by id",
+            "url": "http://localhost:3200/notes/1",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-07-03T15:42:39.007Z",
+            "modified": "2024-07-03T15:42:55.352Z",
+            "headers": []
+        },
+        {
+            "_id": "1ff12705-fc8a-4d4b-9da3-599b350ca775",
+            "colId": "2b360091-06ff-48fe-998f-9883cb21153f",
+            "containerId": "",
+            "name": "Create",
+            "url": "http://localhost:3200/notes",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-07-03T15:43:03.912Z",
+            "modified": "2024-07-03T15:44:26.348Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"A note\",\n  \"content\":\"Some note content\",\n  \"created_at\":\"01/01/2022\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "9e168f0b-4951-4d28-baa6-93e1a46186e9",
+            "colId": "2b360091-06ff-48fe-998f-9883cb21153f",
+            "containerId": "",
+            "name": "Update by id",
+            "url": "http://localhost:3200/notes/1",
+            "method": "PATCH",
+            "sortNum": 50000,
+            "created": "2024-07-03T15:45:06.107Z",
+            "modified": "2024-07-03T15:45:31.351Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"An edited note\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "mQBxOuuwMz9_NfLh4qysjPwNHBicu58gfSnXUdZ3O5_o11-75sYMPHWpjnvvKim8Jzl5TdrFvoK3KDJ8fu_PZA"
+}
